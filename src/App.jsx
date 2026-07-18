@@ -302,11 +302,16 @@ function App() {
             <p className="eyebrow">Contact</p>
             <h2>Let’s build something sharp</h2>
             <p className="section-sub">
-              Open to frontend roles and collaborations. Reach out on LinkedIn or browse my code on GitHub.
+              Open to frontend roles and collaborations. Email{' '}
+              <a href="mailto:rammohanonchipspace@gmail.com">rammohanonchipspace@gmail.com</a>
+              {' '}or call <a href="tel:+916302914897">+91 6302914897</a>.
             </p>
             <div className="contact-actions">
+              <a className="btn btn-primary" href="mailto:rammohanonchipspace@gmail.com">
+                Email
+              </a>
               <a
-                className="btn btn-primary"
+                className="btn btn-ghost"
                 href="https://www.linkedin.com/in/rammohan-c-0050bb258"
                 target="_blank"
                 rel="noreferrer"
