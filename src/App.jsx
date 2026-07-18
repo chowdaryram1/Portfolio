@@ -8,24 +8,32 @@ const projects = [
     url: 'https://simpliaxis.com',
     role: 'Frontend Developer',
     blurb:
-      'Responsive React interfaces for a global certification platform — course discovery, lead flows, and high-traffic marketing pages.',
-    stack: ['React.js', 'Redux', 'Tailwind CSS', 'REST APIs'],
-  },
-  {
-    name: 'AxiGlobe',
-    url: 'https://axiglobe.com',
-    role: 'Frontend Developer',
-    blurb:
-      'UI for professional IT certification courses spanning Agile, SAFe, PMP, and enterprise learning paths.',
-    stack: ['React.js', 'JavaScript', 'CSS3', 'Responsive UI'],
+      'Global certification platform UI — course discovery, lead flows, and high-traffic marketing pages built with HTML, CSS, Bootstrap, and JavaScript on a PHP backend.',
+    stack: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'PHP'],
   },
   {
     name: 'Axis',
     url: 'https://axis.simpliaxis.com',
     role: 'Frontend Developer',
     blurb:
-      'Product experience within the Simpliaxis ecosystem — focused on clarity, performance, and mobile-first layouts.',
-    stack: ['React.js', 'Component Architecture', 'HTML5'],
+      'Product experience within the Simpliaxis ecosystem — React.js UI with HTML, Bootstrap, and CSS3, integrated with a PHP backend.',
+    stack: ['HTML', 'Bootstrap', 'CSS3', 'React.js', 'PHP'],
+  },
+  {
+    name: 'AxiGlobe',
+    url: 'https://axiglobe.com',
+    role: 'Frontend Developer',
+    blurb:
+      'Professional IT certification site covering Agile, SAFe, PMP, and related learning paths — built with HTML, CSS, JavaScript, and Bootstrap on PHP.',
+    stack: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP'],
+  },
+  {
+    name: 'Personal Portfolio',
+    url: 'https://chowdaryram1.github.io/portfolio/',
+    role: 'Personal Project',
+    blurb:
+      'Responsive personal portfolio with scroll-driven motion, project showcase, and contact CTAs — built and deployed on GitHub Pages.',
+    stack: ['React.js', 'Vite', 'Framer Motion', 'CSS3'],
   },
 ]
 
@@ -36,9 +44,9 @@ const experience = [
     dates: 'Feb 2025 — Present',
     place: 'Bengaluru, India',
     points: [
-      'Ship production UI for simpliaxis.com, axiglobe.com, and axis.simpliaxis.com',
-      'Build reusable React components with Redux state and REST integrations',
-      'Optimize responsive layouts and performance across marketing and product surfaces',
+      'Ship production UI for simpliaxis.com (HTML, CSS, Bootstrap, JavaScript + PHP), axis.simpliaxis.com (HTML, Bootstrap, CSS3, React.js + PHP), and axiglobe.com (HTML, CSS, JavaScript, Bootstrap + PHP)',
+      'Build responsive, mobile-first interfaces and integrate front-end views with PHP backends',
+      'Optimize layouts, usability, and performance across marketing and product surfaces',
     ],
   },
   {
@@ -65,9 +73,9 @@ const experience = [
 ]
 
 const skills = [
-  { group: 'Languages', items: ['JavaScript (ES6+)', 'HTML5', 'CSS3'] },
-  { group: 'Frontend', items: ['React.js', 'Redux', 'Tailwind CSS', 'React Bootstrap'] },
-  { group: 'Practice', items: ['REST APIs', 'Git & GitHub', 'Responsive Design', 'Performance'] },
+  { group: 'Languages', items: ['JavaScript (ES6+)', 'HTML5', 'CSS3', 'PHP (integration)'] },
+  { group: 'Frontend', items: ['React.js', 'Bootstrap', 'Responsive Design', 'Framer Motion'] },
+  { group: 'Practice', items: ['Git & GitHub', 'Component Architecture', 'Cross-browser UI', 'Performance'] },
 ]
 
 const fadeUp = {
@@ -124,8 +132,8 @@ function App() {
                 <span>Sandireddy</span>
               </motion.h1>
               <motion.p className="hero-lead" variants={fadeUp}>
-                I craft responsive React experiences for learning platforms —
-                clean interfaces, solid architecture, and motion that feels intentional.
+                I build responsive web experiences for learning platforms —
+                HTML, CSS, Bootstrap, JavaScript, and React.js, integrated with PHP backends.
               </motion.p>
               <motion.div className="hero-actions" variants={fadeUp}>
                 <a className="btn btn-primary" href="#work">
